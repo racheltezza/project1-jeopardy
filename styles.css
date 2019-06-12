@@ -1,0 +1,120 @@
+h1 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+.jeopardy_board {
+    display: grid;
+    grid-template-columns: 4;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    list-style: none;
+    
+}
+.jeopardy_board li {
+    border: 2px solid black;
+}
+#HTML-category {
+    grid-column: 1;
+    grid-row: 1;
+}
+#CSS-category {
+    grid-column: 2;
+    grid-row: 1;
+}
+#JavaScript-category {
+    grid-column: 3;
+    grid-row: 1;
+}
+#Animals-category {
+    grid-column: 4;
+    grid-row: 1;
+}
+#HTML100 {
+    grid-column: 1;
+    grid-row: 2;
+}
+#HTML200 {
+    grid-column: 1;
+    grid-row: 3;
+}
+#HTML300 {
+    grid-column: 1;
+    grid-row: 4;
+}
+#HTML400 {
+    grid-column: 1;
+    grid-row: 5;
+}
+#HTML500 {
+    grid-column: 1;
+    grid-row: 6;
+}
+#CSS100 {
+    grid-column: 2;
+    grid-row: 2;
+}
+#CSS200 {
+    grid-column: 2;
+    grid-row: 3;
+}
+#CSS300 {
+    grid-column: 2;
+    grid-row: 4;
+}
+#CSS400 {
+    grid-column: 2;
+    grid-row: 5;
+}
+#CSS500 {
+    grid-column: 2;
+    grid-row: 6;
+}
+#JavaScript100 {
+    grid-column: 3;
+    grid-row: 2;
+}
+#JavaScript200 {
+    grid-column: 3;
+    grid-row: 3;
+}
+#JavaScript300 {
+    grid-column: 3;
+    grid-row: 4;
+}
+#JavaScript400 {
+    grid-column: 3;
+    grid-row: 5;
+}
+#JavaScript500 {
+    grid-column: 3;
+    grid-row: 6;
+}
+#Animals100 {
+    grid-column: 4;
+    grid-row: 2;
+}
+#Animals200 {
+    grid-column: 4;
+    grid-row: 3;
+}
+#Animals300 {
+    grid-column: 4;
+    grid-row: 4;
+}
+#Animals400 {
+    grid-column: 4;
+    grid-row: 5;
+}
+#Animals500 {
+    grid-column: 4;
+    grid-row: 6;
+}
+
+form {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
