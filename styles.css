@@ -11,26 +11,40 @@ h1 {
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
     list-style: none;
+    margin: 20px 0 30px 0;
+    width: 80vw;
     
 }
 .jeopardy_board li {
     border: 2px solid black;
+    text-align: center;
+    font-size: 45px;
+    background-color: blue;
+    color: white;
 }
 #HTML-category {
     grid-column: 1;
     grid-row: 1;
+    background-color: white;
+    color: black;
 }
 #CSS-category {
     grid-column: 2;
     grid-row: 1;
+    background-color: white;
+    color: black;
 }
 #JavaScript-category {
     grid-column: 3;
     grid-row: 1;
+    background-color: white;
+    color: black;
 }
 #Animals-category {
     grid-column: 4;
     grid-row: 1;
+    background-color: white;
+    color: black;
 }
 #HTML100 {
     grid-column: 1;
