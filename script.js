@@ -55,7 +55,7 @@ let cssCategory = {
     pointOption500:
                     {
                     pointValue: 500,
-                    question: "tag would you write to link the css stylesheet styles.css to your HTML?",
+                    question: "what tag would you write to link the css stylesheet styles.css to your HTML?",
                     answer: "<link rel='stylesheet' href='styles.css'>"
     }
 
@@ -301,6 +301,8 @@ function flipToQuestion20() {
 //         console.log(pointSquares[i].textContent);
 // }
 // }
+
+
 // set variable for answer submit button to we can add event listener to it.
 let submitAnswerButton = document.querySelector('.submitButton');
 let answerToQuestion = document.querySelector('.answerToQuestion');
@@ -313,127 +315,171 @@ let score = 0
 submitAnswerButton.addEventListener('click', submitAnswer)
 function submitAnswer (event) {
     event.preventDefault();
+    if (score >= 100 ) {
+        alert ('You won jeopardy!');
+    };
     if (answerToQuestion.value.toLowerCase() === htmlCategory.pointOption100.answer) {
     alert('Congrats, you got it right!')
     score = score + htmlCategory.pointOption100.pointValue;
     scoreBoard.innerText = "$" + score;
+    answerToQuestion.value = ""
+    htmlFor100.textContent = ""
     return(score)
     };
     if (answerToQuestion.value.toLowerCase() === htmlCategory.pointOption200.answer) {
         alert('Congrats, you got it right!')
         score = score + htmlCategory.pointOption200.pointValue;
         scoreBoard.innerText = "$" + score;
+        answerToQuestion.value = ""
+        htmlFor200.textContent = ""
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === htmlCategory.pointOption300.answer) {
         alert('Congrats, you got it right!')
         score = score + htmlCategory.pointOption300.pointValue;
         scoreBoard.innerText = "$" + score;
+        answerToQuestion.value = ""
+        htmlFor300.textContent = ""
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === htmlCategory.pointOption300.answer) {
         alert('Congrats, you got it right!')
         score = score + htmlCategory.pointOption400.pointValue;
         scoreBoard.innerText = "$" + score;
+        answerToQuestion.value = ""
+        htmlFor400.textContent = ""
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === htmlCategory.pointOption500.answer) {
         alert('Congrats, you got it right!')
         score = score + htmlCategory.pointOption500.pointValue;
         scoreBoard.innerText = "$" + score;
+        answerToQuestion.value = ""
+        htmlFor500.textContent = ""
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === cssCategory.pointOption100.answer) {
         alert('Congrats, you got it right!')
         score = score + cssCategory.pointOption100.pointValue;
         scoreBoard.innerText = "$" + score;
+        answerToQuestion.value = ""
+        cssFor100.textContent = ""
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === cssCategory.pointOption200.answer) {
         alert('Congrats, you got it right!')
         score = score + cssCategory.pointOption200.pointValue;
         scoreBoard.innerText = "$" + score;
+        answerToQuestion.value = ""
+        cssFor200.textContent = ""
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === cssCategory.pointOption300.answer) {
         alert('Congrats, you got it right!')
         score = score + cssCategory.pointOption300.pointValue;
         scoreBoard.innerText = "$" + score;
+        answerToQuestion.value = ""
+        cssFor300.textContent = ""
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === cssCategory.pointOption400.answer) {
         alert('Congrats, you got it right!')
         score = score + cssCategory.pointOption400.pointValue;
         scoreBoard.innerText = "$" + score;
+        answerToQuestion.value = ""
+        cssFor400.textContent = ""
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === cssCategory.pointOption500.answer) {
         alert('Congrats, you got it right!')
         score = score + cssCategory.pointOption500.pointValue;
         scoreBoard.innerText = "$" + score;
+        answerToQuestion.value = ""
+        cssFor500.textContent = ""
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === javascriptCategory.pointOption100.answer) {
         alert('Congrats, you got it right!')
         score = score + javascriptCategory.pointOption100.pointValue;
         scoreBoard.innerText = "$" + score;
+        answerToQuestion.value = ""
+        javascriptFor100.textContent = ""
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === javascriptCategory.pointOption200.answer) {
         alert('Congrats, you got it right!')
         score = score + javascriptCategory.pointOption200.pointValue;
         scoreBoard.innerText = "$" + score;
+        answerToQuestion.value = ""
+        javascriptFor200.textContent = ""
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === javascriptCategory.pointOption300.answer) {
         alert('Congrats, you got it right!')
         score = score + javascriptCategory.pointOption300.pointValue;
         scoreBoard.innerText = "$" + score;
+        answerToQuestion.value = ""
+        javascriptFor300.textContent = ""
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === javascriptCategory.pointOption400.answer) {
         alert('Congrats, you got it right!')
         score = score + javascriptCategory.pointOption400.pointValue;
         scoreBoard.innerText = "$" + score;
+        answerToQuestion.value = ""
+        javascriptFor400.textContent = ""
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === javascriptCategory.pointOption500.answer) {
         alert('Congrats, you got it right!')
         score = score + javascriptCategory.pointOption500.pointValue;
         scoreBoard.innerText = "$" + score;
+        answerToQuestion.value = ""
+        javascriptFor500.textContent = ""
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === animalsCategory.pointOption100.answer) {
         alert('Congrats, you got it right!')
         score = score + animalsCategory.pointOption100.pointValue;
         scoreBoard.innerText = "$" + score;
+        answerToQuestion.value = ""
+        animalsFor100.textContent = ""
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === animalsCategory.pointOption200.answer) {
         alert('Congrats, you got it right!')
         score = score + animalsCategory.pointOption200.pointValue;
         scoreBoard.innerText = "$" + score;
+        answerToQuestion.value = ""
+        animalsFor200.textContent = ""
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === animalsCategory.pointOption300.answer) {
         alert('Congrats, you got it right!')
         score = score + animalsCategory.pointOption300.pointValue;
         scoreBoard.innerText = "$" + score;
+        answerToQuestion.value = ""
+        animalsFor300.textContent = ""
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === animalsCategory.pointOption400.answer) {
         alert('Congrats, you got it right!')
         score = score + animalsCategory.pointOption400.pointValue;
         scoreBoard.innerText = "$" + score;
+        answerToQuestion.value = ""
+        animalsFor400.textContent = ""
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === animalsCategory.pointOption500.answer) {
         alert('Congrats, you got it right!')
         score = score + animalsCategory.pointOption500.pointValue;
         scoreBoard.innerText = "$" + score;
+        answerToQuestion.value = ""
+        animalsFor500.textContent = ""
         return(score)
-    }
+    };
     {
         alert ('Sorry, that is incorrect!');
+        answerToQuestion.value = ""
     }
 }
