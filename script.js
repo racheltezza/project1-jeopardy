@@ -131,12 +131,152 @@ let animalsCategory = {
 // set variable for the 100 point square in the html category
 let htmlFor100 = document.querySelector('#HTML100')
 // create event that changes the text content from points to the question when clicked
-htmlFor100.addEventListener('click', flipToQuestion)
-function flipToQuestion() {
+htmlFor100.addEventListener('click', flipToQuestion1)
+function flipToQuestion1() {
     htmlFor100.textContent = htmlCategory.pointOption100.question;
     console.log(htmlFor100.textContent);
-}
+};
+let htmlFor200 = document.querySelector('#HTML200')
+// create event that changes the text content from points to the question when clicked
+htmlFor200.addEventListener('click', flipToQuestion2)
+function flipToQuestion2() {
+    htmlFor200.textContent = htmlCategory.pointOption200.question;
+    console.log(htmlFor200.textContent);
+};
+let htmlFor300 = document.querySelector('#HTML300')
+// create event that changes the text content from points to the question when clicked
+htmlFor300.addEventListener('click', flipToQuestion3)
+function flipToQuestion3() {
+    htmlFor300.textContent = htmlCategory.pointOption300.question;
+    console.log(htmlFor300.textContent);
+};
+let htmlFor400 = document.querySelector('#HTML400')
+// create event that changes the text content from points to the question when clicked
+htmlFor400.addEventListener('click', flipToQuestion4)
+function flipToQuestion4() {
+    htmlFor400.textContent = htmlCategory.pointOption400.question;
+    console.log(htmlFor400.textContent);
+};
+let htmlFor500 = document.querySelector('#HTML500')
+// create event that changes the text content from points to the question when clicked
+htmlFor500.addEventListener('click', flipToQuestion5)
+function flipToQuestion5() {
+    htmlFor500.textContent = htmlCategory.pointOption500.question;
+    console.log(htmlFor500.textContent);
+};
 
+
+// set variable for the 100 point square in the html category
+let cssFor100 = document.querySelector('#CSS100')
+// create event that changes the text content from points to the question when clicked
+cssFor100.addEventListener('click', flipToQuestion6)
+function flipToQuestion6() {
+    cssFor100.textContent = cssCategory.pointOption100.question;
+    console.log(cssFor100.textContent);
+};
+let cssFor200 = document.querySelector('#CSS200')
+// create event that changes the text content from points to the question when clicked
+cssFor200.addEventListener('click', flipToQuestion7)
+function flipToQuestion7() {
+    cssFor200.textContent = cssCategory.pointOption200.question;
+    console.log(cssFor200.textContent);
+};
+let cssFor300 = document.querySelector('#CSS300')
+// create event that changes the text content from points to the question when clicked
+cssFor300.addEventListener('click', flipToQuestion8)
+function flipToQuestion8() {
+    cssFor300.textContent = cssCategory.pointOption300.question;
+    console.log(cssFor300.textContent);
+};
+let cssFor400 = document.querySelector('#CSS400')
+// create event that changes the text content from points to the question when clicked
+cssFor400.addEventListener('click', flipToQuestion9)
+function flipToQuestion9() {
+    cssFor400.textContent = cssCategory.pointOption400.question;
+    console.log(cssFor400.textContent);
+};
+let cssFor500 = document.querySelector('#CSS500')
+// create event that changes the text content from points to the question when clicked
+cssFor500.addEventListener('click', flipToQuestion10)
+function flipToQuestion10() {
+    cssFor500.textContent = cssCategory.pointOption500.question;
+    console.log(cssFor500.textContent);
+};
+
+// set variable for the 100 point square in the html category
+let javascriptFor100 = document.querySelector('#JavaScript100')
+// create event that changes the text content from points to the question when clicked
+javascriptFor100.addEventListener('click', flipToQuestion11)
+function flipToQuestion11() {
+    javascriptFor100.textContent = javascriptCategory.pointOption100.question;
+    console.log(javascriptFor100.textContent);
+};
+let javascriptFor200 = document.querySelector('#JavaScript200')
+// create event that changes the text content from points to the question when clicked
+javascriptFor200.addEventListener('click', flipToQuestion12)
+function flipToQuestion12() {
+    javascriptFor200.textContent = javascriptCategory.pointOption200.question;
+    console.log(javascriptFor200.textContent);
+};
+let javascriptFor300 = document.querySelector('#JavaScript300')
+// create event that changes the text content from points to the question when clicked
+javascriptFor300.addEventListener('click', flipToQuestion13)
+function flipToQuestion13() {
+    javascriptFor300.textContent = javascriptCategory.pointOption300.question;
+    console.log(javascriptFor300.textContent);
+};
+let javascriptFor400 = document.querySelector('#JavaScript400')
+// create event that changes the text content from points to the question when clicked
+javascriptFor400.addEventListener('click', flipToQuestion14)
+function flipToQuestion14() {
+    javascriptFor400.textContent = javascriptCategory.pointOption400.question;
+    console.log(javascriptFor400.textContent);
+};
+let javascriptFor500 = document.querySelector('#JavaScript500')
+// create event that changes the text content from points to the question when clicked
+javascriptFor500.addEventListener('click', flipToQuestion15)
+function flipToQuestion15() {
+    javascriptFor500.textContent = javascriptCategory.pointOption500.question;
+    console.log(javascriptFor500.textContent);
+};
+
+
+// set variable for the 100 point square in the html category
+let animalsFor100 = document.querySelector('#Animals100')
+// create event that changes the text content from points to the question when clicked
+animalsFor100.addEventListener('click', flipToQuestion16)
+function flipToQuestion16() {
+    animalsFor100.textContent = animalsCategory.pointOption100.question;
+    console.log(animalsFor100.textContent);
+};
+let animalsFor200 = document.querySelector('#Animals200')
+// create event that changes the text content from points to the question when clicked
+animalsFor200.addEventListener('click', flipToQuestion17)
+function flipToQuestion17() {
+    animalsFor200.textContent = animalsCategory.pointOption200.question;
+    console.log(animalsFor200.textContent);
+};
+let animalsFor300 = document.querySelector('#Animals300')
+// create event that changes the text content from points to the question when clicked
+animalsFor300.addEventListener('click', flipToQuestion18)
+function flipToQuestion18() {
+    animalsFor300.textContent = animalsCategory.pointOption300.question;
+    console.log(animalsFor300.textContent);
+};
+let animalsFor400 = document.querySelector('#Animals400')
+// create event that changes the text content from points to the question when clicked
+animalsFor400.addEventListener('click', flipToQuestion19)
+function flipToQuestion19() {
+    animalsFor400.textContent = animalsCategory.pointOption400.question;
+    console.log(animalsFor400.textContent);
+};
+let animalsFor500 = document.querySelector('#Animals500')
+// create event that changes the text content from points to the question when clicked
+animalsFor500.addEventListener('click', flipToQuestion20)
+function flipToQuestion20() {
+    animalsFor500.textContent = animalsCategory.pointOption500.question;
+    console.log(animalsFor500.textContent);
+};
 // let pointSquares = document.querySelectorAll('.pointSquares');
 // for (let i = 0; i < pointSquares.length; i++) {
 //     pointSquares[i].addEventListener('click', flipToQuestion)
@@ -146,19 +286,19 @@ function flipToQuestion() {
 // }
 // }
 
-let submitAnswerButton = document.querySelector('.submitButton');
-let answerToQuestion = document.querySelector('.answerToQuestion');
-let scoreBoard = document.querySelector('.score').textContent;
-let score = 0
-submitAnswerButton.addEventListener('click', submitAnswer)
-function submitAnswer (event) {
-    event.preventDefault();
-    if (answerToQuestion.value.toLowerCase() === htmlCategory.pointOption100.answer) {
-    alert('Congrats, you got it right!')
-    score = score + htmlCategory.pointOption100.pointValue;
-    scoreBoard = score.toString();
-    console.log(score)
-    };
-}
+// let submitAnswerButton = document.querySelector('.submitButton');
+// let answerToQuestion = document.querySelector('.answerToQuestion');
+// let scoreBoard = document.querySelector('.score').textContent;
+// let score = 0
+// submitAnswerButton.addEventListener('click', submitAnswer)
+// function submitAnswer (event) {
+//     event.preventDefault();
+//     if (answerToQuestion.value.toLowerCase() === htmlCategory.pointOption100.answer) {
+//     alert('Congrats, you got it right!')
+//     score = score + htmlCategory.pointOption100.pointValue;
+//     scoreBoard = score.toString();
+//     console.log(score)
+//     };
+// }
 
 
