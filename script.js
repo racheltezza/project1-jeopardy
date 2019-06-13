@@ -136,3 +136,29 @@ function flipToQuestion() {
     htmlFor100.textContent = htmlCategory.pointOption100.question;
     console.log(htmlFor100.textContent);
 }
+
+// let pointSquares = document.querySelectorAll('.pointSquares');
+// for (let i = 0; i < pointSquares.length; i++) {
+//     pointSquares[i].addEventListener('click', flipToQuestion)
+//     function flipToQuestion() {
+//         pointSquares[i].textContent = htmlCategory.pointOption100.question;
+//         console.log(pointSquares[i].textContent);
+// }
+// }
+
+let submitAnswerButton = document.querySelector('.submitButton');
+let answerToQuestion = document.querySelector('.answerToQuestion');
+let scoreBoard = document.querySelector('.score').textContent;
+let score = 0
+submitAnswerButton.addEventListener('click', submitAnswer)
+function submitAnswer (event) {
+    event.preventDefault();
+    if (answerToQuestion.value.toLowerCase() === htmlCategory.pointOption100.answer) {
+    alert('Congrats, you got it right!')
+    score = score + htmlCategory.pointOption100.pointValue;
+    scoreBoard = score.toString();
+    console.log(score)
+    };
+}
+
+

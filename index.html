@@ -13,6 +13,7 @@
 // create jeopardy board- make divs for each category and question/point pair
 // create input field with submit button for answers -->
 <h1>JEOPARDY</h1>
+<h2 class="score">0</h2>
 
         <ul class="jeopardy_board">
             <!-- <div class="categories"> -->
@@ -21,6 +22,7 @@
                 <li id="JavaScript-category">JavaScript</li>
                 <li id="Animals-category">Animals</li>
             <!-- </div> -->
+        <!-- <div class="pointSquares"> -->
             <li id="HTML100">100</li>
             <li id="HTML200">200</li>
             <li id="HTML300">300</li>
@@ -41,11 +43,12 @@
             <li id="Animals300">300</li>
             <li id="Animals400">400</li>
             <li id="Animals500">500</li>
+        <!-- </div> -->
 
         </ul>
 <form>
-    <input type="text" name="answer_to_question">
-    <input type="submit" value="Submit">
+    <input type="text" class="answerToQuestion">
+    <input type="submit" class="submitButton" value="Submit">
 </form>
 
 <script src="script.js"></script>    

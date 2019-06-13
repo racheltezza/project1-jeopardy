@@ -3,7 +3,11 @@ h1 {
     margin: 0 auto;
     justify-content: center;
 }
-
+h2 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: flex-end; 
+}
 
 .jeopardy_board {
     display: grid;
