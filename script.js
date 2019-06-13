@@ -1,4 +1,4 @@
-// make each catgory into an object that holds values for the points, questions, and answers
+// make each catgory into an object that has key value pairs for the points, questions, and answers in each point option
 console.log("Connected")
 let htmlCategory = {
     pointOption100: { 
@@ -136,6 +136,7 @@ function flipToQuestion1() {
     htmlFor100.textContent = htmlCategory.pointOption100.question;
     console.log(htmlFor100.textContent);
 };
+// set variable for the 200 point square in the html category
 let htmlFor200 = document.querySelector('#HTML200')
 // create event that changes the text content from points to the question when clicked
 htmlFor200.addEventListener('click', flipToQuestion2)
@@ -143,6 +144,7 @@ function flipToQuestion2() {
     htmlFor200.textContent = htmlCategory.pointOption200.question;
     console.log(htmlFor200.textContent);
 };
+// set variable for the 300 point square in the html category
 let htmlFor300 = document.querySelector('#HTML300')
 // create event that changes the text content from points to the question when clicked
 htmlFor300.addEventListener('click', flipToQuestion3)
@@ -150,6 +152,7 @@ function flipToQuestion3() {
     htmlFor300.textContent = htmlCategory.pointOption300.question;
     console.log(htmlFor300.textContent);
 };
+// set variable for the 400 point square in the html category
 let htmlFor400 = document.querySelector('#HTML400')
 // create event that changes the text content from points to the question when clicked
 htmlFor400.addEventListener('click', flipToQuestion4)
@@ -157,6 +160,7 @@ function flipToQuestion4() {
     htmlFor400.textContent = htmlCategory.pointOption400.question;
     console.log(htmlFor400.textContent);
 };
+// set variable for the 500 point square in the html category
 let htmlFor500 = document.querySelector('#HTML500')
 // create event that changes the text content from points to the question when clicked
 htmlFor500.addEventListener('click', flipToQuestion5)
@@ -166,7 +170,7 @@ function flipToQuestion5() {
 };
 
 
-// set variable for the 100 point square in the html category
+// set variable for the 100 point square in the css category
 let cssFor100 = document.querySelector('#CSS100')
 // create event that changes the text content from points to the question when clicked
 cssFor100.addEventListener('click', flipToQuestion6)
@@ -174,6 +178,7 @@ function flipToQuestion6() {
     cssFor100.textContent = cssCategory.pointOption100.question;
     console.log(cssFor100.textContent);
 };
+// set variable for the 200 point square in the css category
 let cssFor200 = document.querySelector('#CSS200')
 // create event that changes the text content from points to the question when clicked
 cssFor200.addEventListener('click', flipToQuestion7)
@@ -181,6 +186,7 @@ function flipToQuestion7() {
     cssFor200.textContent = cssCategory.pointOption200.question;
     console.log(cssFor200.textContent);
 };
+// set variable for the 300 point square in the css category
 let cssFor300 = document.querySelector('#CSS300')
 // create event that changes the text content from points to the question when clicked
 cssFor300.addEventListener('click', flipToQuestion8)
@@ -188,6 +194,7 @@ function flipToQuestion8() {
     cssFor300.textContent = cssCategory.pointOption300.question;
     console.log(cssFor300.textContent);
 };
+// set variable for the 400 point square in the css category
 let cssFor400 = document.querySelector('#CSS400')
 // create event that changes the text content from points to the question when clicked
 cssFor400.addEventListener('click', flipToQuestion9)
@@ -195,6 +202,7 @@ function flipToQuestion9() {
     cssFor400.textContent = cssCategory.pointOption400.question;
     console.log(cssFor400.textContent);
 };
+// set variable for the 500 point square in the css category
 let cssFor500 = document.querySelector('#CSS500')
 // create event that changes the text content from points to the question when clicked
 cssFor500.addEventListener('click', flipToQuestion10)
@@ -203,7 +211,7 @@ function flipToQuestion10() {
     console.log(cssFor500.textContent);
 };
 
-// set variable for the 100 point square in the html category
+// set variable for the 100 point square in the javascript category
 let javascriptFor100 = document.querySelector('#JavaScript100')
 // create event that changes the text content from points to the question when clicked
 javascriptFor100.addEventListener('click', flipToQuestion11)
@@ -211,6 +219,7 @@ function flipToQuestion11() {
     javascriptFor100.textContent = javascriptCategory.pointOption100.question;
     console.log(javascriptFor100.textContent);
 };
+// set variable for the 200 point square in the javascript category
 let javascriptFor200 = document.querySelector('#JavaScript200')
 // create event that changes the text content from points to the question when clicked
 javascriptFor200.addEventListener('click', flipToQuestion12)
@@ -218,6 +227,7 @@ function flipToQuestion12() {
     javascriptFor200.textContent = javascriptCategory.pointOption200.question;
     console.log(javascriptFor200.textContent);
 };
+// set variable for the 300 point square in the javascript category
 let javascriptFor300 = document.querySelector('#JavaScript300')
 // create event that changes the text content from points to the question when clicked
 javascriptFor300.addEventListener('click', flipToQuestion13)
@@ -225,6 +235,7 @@ function flipToQuestion13() {
     javascriptFor300.textContent = javascriptCategory.pointOption300.question;
     console.log(javascriptFor300.textContent);
 };
+// set variable for the 400 point square in the javascript category
 let javascriptFor400 = document.querySelector('#JavaScript400')
 // create event that changes the text content from points to the question when clicked
 javascriptFor400.addEventListener('click', flipToQuestion14)
@@ -232,6 +243,7 @@ function flipToQuestion14() {
     javascriptFor400.textContent = javascriptCategory.pointOption400.question;
     console.log(javascriptFor400.textContent);
 };
+// set variable for the 500 point square in the javascript category
 let javascriptFor500 = document.querySelector('#JavaScript500')
 // create event that changes the text content from points to the question when clicked
 javascriptFor500.addEventListener('click', flipToQuestion15)
@@ -241,7 +253,7 @@ function flipToQuestion15() {
 };
 
 
-// set variable for the 100 point square in the html category
+// set variable for the 100 point square in the animals category
 let animalsFor100 = document.querySelector('#Animals100')
 // create event that changes the text content from points to the question when clicked
 animalsFor100.addEventListener('click', flipToQuestion16)
@@ -249,6 +261,7 @@ function flipToQuestion16() {
     animalsFor100.textContent = animalsCategory.pointOption100.question;
     console.log(animalsFor100.textContent);
 };
+// set variable for the 200 point square in the animals category
 let animalsFor200 = document.querySelector('#Animals200')
 // create event that changes the text content from points to the question when clicked
 animalsFor200.addEventListener('click', flipToQuestion17)
@@ -256,6 +269,7 @@ function flipToQuestion17() {
     animalsFor200.textContent = animalsCategory.pointOption200.question;
     console.log(animalsFor200.textContent);
 };
+// set variable for the 300 point square in the animals category
 let animalsFor300 = document.querySelector('#Animals300')
 // create event that changes the text content from points to the question when clicked
 animalsFor300.addEventListener('click', flipToQuestion18)
@@ -263,6 +277,7 @@ function flipToQuestion18() {
     animalsFor300.textContent = animalsCategory.pointOption300.question;
     console.log(animalsFor300.textContent);
 };
+// set variable for the 400 point square in the animals category
 let animalsFor400 = document.querySelector('#Animals400')
 // create event that changes the text content from points to the question when clicked
 animalsFor400.addEventListener('click', flipToQuestion19)
@@ -270,6 +285,7 @@ function flipToQuestion19() {
     animalsFor400.textContent = animalsCategory.pointOption400.question;
     console.log(animalsFor400.textContent);
 };
+// set variable for the 500 point square in the animals category
 let animalsFor500 = document.querySelector('#Animals500')
 // create event that changes the text content from points to the question when clicked
 animalsFor500.addEventListener('click', flipToQuestion20)
@@ -285,20 +301,141 @@ function flipToQuestion20() {
 //         console.log(pointSquares[i].textContent);
 // }
 // }
-
-// let submitAnswerButton = document.querySelector('.submitButton');
-// let answerToQuestion = document.querySelector('.answerToQuestion');
-// let scoreBoard = document.querySelector('.score').textContent;
-// let score = 0
-// submitAnswerButton.addEventListener('click', submitAnswer)
-// function submitAnswer (event) {
-//     event.preventDefault();
-//     if (answerToQuestion.value.toLowerCase() === htmlCategory.pointOption100.answer) {
-//     alert('Congrats, you got it right!')
-//     score = score + htmlCategory.pointOption100.pointValue;
-//     scoreBoard = score.toString();
-//     console.log(score)
-//     };
-// }
+// set variable for answer submit button to we can add event listener to it.
+let submitAnswerButton = document.querySelector('.submitButton');
+let answerToQuestion = document.querySelector('.answerToQuestion');
+// set variable for the visible scoreboard
+let scoreBoard = document.querySelector('.score').textContent;
+// set varible for user's score
+let score = 0
+// make click event for submit button to check for right answer-
+// if answer is correct, alert them and add points to the user's score and scoreboard
+submitAnswerButton.addEventListener('click', submitAnswer)
+function submitAnswer (event) {
+    event.preventDefault();
+    if (answerToQuestion.value.toLowerCase() === htmlCategory.pointOption100.answer) {
+    alert('Congrats, you got it right!')
+    score = score + htmlCategory.pointOption100.pointValue;
+    scoreBoard = score.toString();
+    console.log(score)
+    };
+    if (answerToQuestion.value.toLowerCase() === htmlCategory.pointOption200.answer) {
+        alert('Congrats, you got it right!')
+        score = score + htmlCategory.pointOption200.pointValue;
+        scoreBoard = score.toString();
+        console.log(score)
+    };
+    if (answerToQuestion.value.toLowerCase() === htmlCategory.pointOption300.answer) {
+        alert('Congrats, you got it right!')
+        score = score + htmlCategory.pointOption300.pointValue;
+        scoreBoard = score.toString();
+        console.log(score)
+    };
+    if (answerToQuestion.value.toLowerCase() === htmlCategory.pointOption300.answer) {
+        alert('Congrats, you got it right!')
+        score = score + htmlCategory.pointOption400.pointValue;
+        scoreBoard = score.toString();
+        console.log(score)
+    };
+    if (answerToQuestion.value.toLowerCase() === htmlCategory.pointOption500.answer) {
+        alert('Congrats, you got it right!')
+        score = score + htmlCategory.pointOption500.pointValue;
+        scoreBoard = score.toString();
+        console.log(score)
+    };
+    if (answerToQuestion.value.toLowerCase() === cssCategory.pointOption100.answer) {
+        alert('Congrats, you got it right!')
+        score = score + cssCategory.pointOption100.pointValue;
+        scoreBoard = score.toString();
+        console.log(score)
+    };
+    if (answerToQuestion.value.toLowerCase() === cssCategory.pointOption200.answer) {
+        alert('Congrats, you got it right!')
+        score = score + cssCategory.pointOption200.pointValue;
+        scoreBoard = score.toString();
+        console.log(score)
+    };
+    if (answerToQuestion.value.toLowerCase() === cssCategory.pointOption300.answer) {
+        alert('Congrats, you got it right!')
+        score = score + cssCategory.pointOption300.pointValue;
+        scoreBoard = score.toString();
+        console.log(score)
+    };
+    if (answerToQuestion.value.toLowerCase() === cssCategory.pointOption400.answer) {
+        alert('Congrats, you got it right!')
+        score = score + cssCategory.pointOption400.pointValue;
+        scoreBoard = score.toString();
+        console.log(score)
+    };
+    if (answerToQuestion.value.toLowerCase() === cssCategory.pointOption500.answer) {
+        alert('Congrats, you got it right!')
+        score = score + cssCategory.pointOption500.pointValue;
+        scoreBoard = score.toString();
+        console.log(score)
+    };
+    if (answerToQuestion.value.toLowerCase() === javascriptCategory.pointOption100.answer) {
+        alert('Congrats, you got it right!')
+        score = score + javascriptCategory.pointOption100.pointValue;
+        scoreBoard = score.toString();
+        console.log(score)
+    };
+    if (answerToQuestion.value.toLowerCase() === javascriptCategory.pointOption200.answer) {
+        alert('Congrats, you got it right!')
+        score = score + javascriptCategory.pointOption200.pointValue;
+        scoreBoard = score.toString();
+        console.log(score)
+    };
+    if (answerToQuestion.value.toLowerCase() === javascriptCategory.pointOption300.answer) {
+        alert('Congrats, you got it right!')
+        score = score + javascriptCategory.pointOption300.pointValue;
+        scoreBoard = score.toString();
+        console.log(score)
+    };
+    if (answerToQuestion.value.toLowerCase() === javascriptCategory.pointOption400.answer) {
+        alert('Congrats, you got it right!')
+        score = score + javascriptCategory.pointOption400.pointValue;
+        scoreBoard = score.toString();
+        console.log(score)
+    };
+    if (answerToQuestion.value.toLowerCase() === javascriptCategory.pointOption500.answer) {
+        alert('Congrats, you got it right!')
+        score = score + javascriptCategory.pointOption500.pointValue;
+        scoreBoard = score.toString();
+        console.log(score)
+    };
+    if (answerToQuestion.value.toLowerCase() === animalsCategory.pointOption100.answer) {
+        alert('Congrats, you got it right!')
+        score = score + animalsCategory.pointOption100.pointValue;
+        scoreBoard = score.toString();
+        console.log(score)
+    };
+    if (answerToQuestion.value.toLowerCase() === animalsCategory.pointOption200.answer) {
+        alert('Congrats, you got it right!')
+        score = score + animalsCategory.pointOption200.pointValue;
+        scoreBoard = score.toString();
+        console.log(score)
+    };
+    if (answerToQuestion.value.toLowerCase() === animalsCategory.pointOption300.answer) {
+        alert('Congrats, you got it right!')
+        score = score + animalsCategory.pointOption300.pointValue;
+        scoreBoard = score.toString();
+        console.log(score)
+    };
+    if (answerToQuestion.value.toLowerCase() === animalsCategory.pointOption400.answer) {
+        alert('Congrats, you got it right!')
+        score = score + animalsCategory.pointOption400.pointValue;
+        scoreBoard = score.toString();
+        console.log(score)
+    };
+    if (answerToQuestion.value.toLowerCase() === animalsCategory.pointOption500.answer) {
+        alert('Congrats, you got it right!')
+        score = score + animalsCategory.pointOption500.pointValue;
+        scoreBoard = score.toString();
+        console.log(score)
+    }
+    else {
+        alert ('Sorry, that is incorrect!');
+    }
+}
 
 
