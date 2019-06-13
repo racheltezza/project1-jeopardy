@@ -1,5 +1,5 @@
 // make each catgory into an object that has key value pairs for the points, questions, and answers in each point option
-console.log("Connected")
+
 let htmlCategory = {
     pointOption100: { 
                     pointValue: 100,
@@ -305,7 +305,7 @@ function flipToQuestion20() {
 let submitAnswerButton = document.querySelector('.submitButton');
 let answerToQuestion = document.querySelector('.answerToQuestion');
 // set variable for the visible scoreboard
-let scoreBoard = document.querySelector('.score').textContent;
+let scoreBoard = document.querySelector('.score');
 // set varible for user's score
 let score = 0
 // make click event for submit button to check for right answer-
@@ -316,126 +316,124 @@ function submitAnswer (event) {
     if (answerToQuestion.value.toLowerCase() === htmlCategory.pointOption100.answer) {
     alert('Congrats, you got it right!')
     score = score + htmlCategory.pointOption100.pointValue;
-    scoreBoard = score.toString();
-    console.log(score)
+    scoreBoard.innerText = "$" + score;
+    return(score)
     };
     if (answerToQuestion.value.toLowerCase() === htmlCategory.pointOption200.answer) {
         alert('Congrats, you got it right!')
         score = score + htmlCategory.pointOption200.pointValue;
-        scoreBoard = score.toString();
-        console.log(score)
+        scoreBoard.innerText = "$" + score;
+        return(score)
     };
     if (answerToQuestion.value.toLowerCase() === htmlCategory.pointOption300.answer) {
         alert('Congrats, you got it right!')
         score = score + htmlCategory.pointOption300.pointValue;
-        scoreBoard = score.toString();
-        console.log(score)
+        scoreBoard.innerText = "$" + score;
+        return(score)
     };
     if (answerToQuestion.value.toLowerCase() === htmlCategory.pointOption300.answer) {
         alert('Congrats, you got it right!')
         score = score + htmlCategory.pointOption400.pointValue;
-        scoreBoard = score.toString();
-        console.log(score)
+        scoreBoard.innerText = "$" + score;
+        return(score)
     };
     if (answerToQuestion.value.toLowerCase() === htmlCategory.pointOption500.answer) {
         alert('Congrats, you got it right!')
         score = score + htmlCategory.pointOption500.pointValue;
-        scoreBoard = score.toString();
-        console.log(score)
+        scoreBoard.innerText = "$" + score;
+        return(score)
     };
     if (answerToQuestion.value.toLowerCase() === cssCategory.pointOption100.answer) {
         alert('Congrats, you got it right!')
         score = score + cssCategory.pointOption100.pointValue;
-        scoreBoard = score.toString();
-        console.log(score)
+        scoreBoard.innerText = "$" + score;
+        return(score)
     };
     if (answerToQuestion.value.toLowerCase() === cssCategory.pointOption200.answer) {
         alert('Congrats, you got it right!')
         score = score + cssCategory.pointOption200.pointValue;
-        scoreBoard = score.toString();
-        console.log(score)
+        scoreBoard.innerText = "$" + score;
+        return(score)
     };
     if (answerToQuestion.value.toLowerCase() === cssCategory.pointOption300.answer) {
         alert('Congrats, you got it right!')
         score = score + cssCategory.pointOption300.pointValue;
-        scoreBoard = score.toString();
-        console.log(score)
+        scoreBoard.innerText = "$" + score;
+        return(score)
     };
     if (answerToQuestion.value.toLowerCase() === cssCategory.pointOption400.answer) {
         alert('Congrats, you got it right!')
         score = score + cssCategory.pointOption400.pointValue;
-        scoreBoard = score.toString();
-        console.log(score)
+        scoreBoard.innerText = "$" + score;
+        return(score)
     };
     if (answerToQuestion.value.toLowerCase() === cssCategory.pointOption500.answer) {
         alert('Congrats, you got it right!')
         score = score + cssCategory.pointOption500.pointValue;
-        scoreBoard = score.toString();
-        console.log(score)
+        scoreBoard.innerText = "$" + score;
+        return(score)
     };
     if (answerToQuestion.value.toLowerCase() === javascriptCategory.pointOption100.answer) {
         alert('Congrats, you got it right!')
         score = score + javascriptCategory.pointOption100.pointValue;
-        scoreBoard = score.toString();
-        console.log(score)
+        scoreBoard.innerText = "$" + score;
+        return(score)
     };
     if (answerToQuestion.value.toLowerCase() === javascriptCategory.pointOption200.answer) {
         alert('Congrats, you got it right!')
         score = score + javascriptCategory.pointOption200.pointValue;
-        scoreBoard = score.toString();
-        console.log(score)
+        scoreBoard.innerText = "$" + score;
+        return(score)
     };
     if (answerToQuestion.value.toLowerCase() === javascriptCategory.pointOption300.answer) {
         alert('Congrats, you got it right!')
         score = score + javascriptCategory.pointOption300.pointValue;
-        scoreBoard = score.toString();
-        console.log(score)
+        scoreBoard.innerText = "$" + score;
+        return(score)
     };
     if (answerToQuestion.value.toLowerCase() === javascriptCategory.pointOption400.answer) {
         alert('Congrats, you got it right!')
         score = score + javascriptCategory.pointOption400.pointValue;
-        scoreBoard = score.toString();
-        console.log(score)
+        scoreBoard.innerText = "$" + score;
+        return(score)
     };
     if (answerToQuestion.value.toLowerCase() === javascriptCategory.pointOption500.answer) {
         alert('Congrats, you got it right!')
         score = score + javascriptCategory.pointOption500.pointValue;
-        scoreBoard = score.toString();
-        console.log(score)
+        scoreBoard.innerText = "$" + score;
+        return(score)
     };
     if (answerToQuestion.value.toLowerCase() === animalsCategory.pointOption100.answer) {
         alert('Congrats, you got it right!')
         score = score + animalsCategory.pointOption100.pointValue;
-        scoreBoard = score.toString();
-        console.log(score)
+        scoreBoard.innerText = "$" + score;
+        return(score)
     };
     if (answerToQuestion.value.toLowerCase() === animalsCategory.pointOption200.answer) {
         alert('Congrats, you got it right!')
         score = score + animalsCategory.pointOption200.pointValue;
-        scoreBoard = score.toString();
-        console.log(score)
+        scoreBoard.innerText = "$" + score;
+        return(score)
     };
     if (answerToQuestion.value.toLowerCase() === animalsCategory.pointOption300.answer) {
         alert('Congrats, you got it right!')
         score = score + animalsCategory.pointOption300.pointValue;
-        scoreBoard = score.toString();
-        console.log(score)
+        scoreBoard.innerText = "$" + score;
+        return(score)
     };
     if (answerToQuestion.value.toLowerCase() === animalsCategory.pointOption400.answer) {
         alert('Congrats, you got it right!')
         score = score + animalsCategory.pointOption400.pointValue;
-        scoreBoard = score.toString();
-        console.log(score)
+        scoreBoard.innerText = "$" + score;
+        return(score)
     };
     if (answerToQuestion.value.toLowerCase() === animalsCategory.pointOption500.answer) {
         alert('Congrats, you got it right!')
         score = score + animalsCategory.pointOption500.pointValue;
-        scoreBoard = score.toString();
-        console.log(score)
+        scoreBoard.innerText = "$" + score;
+        return(score)
     }
-    else {
+    {
         alert ('Sorry, that is incorrect!');
     }
 }
-
-
