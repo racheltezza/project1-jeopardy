@@ -3,27 +3,27 @@
 let htmlCategory = {
     pointOption100: { 
                     pointValue: 100,
-                    question: "what does HTML stand for?",
+                    question: "What does HTML stand for?",
                     answer: "hypertext markup language"
     }, 
     pointOption200: {
                     pointValue: 200,
-                    question: "what is the element tag for heading 1?",
+                    question: "What is the element tag for heading 1?",
                     answer: "<h1>"
     }, 
     pointOption300: {
                     pointValue: 300,
-                    question: "how would you make a div tag with the class 'trees'?",
+                    question: "How would you make a div tag with the class 'trees'?",
                     answer: "<div class='trees'>"
     }, 
     pointOption400: {
                     pointValue: 400,
-                    question: "what should every HTML document start with?",
+                    question: "What should every HTML document start with?",
                     answer: "<!DOCTYPE html>"
     }, 
     pointOption500: {
                     pointValue: 500,
-                    question: "what is the child element tag of an unordered list?",
+                    question: "What is the child element tag of an unordered list?",
                     answer: "<li>"
     }
 
@@ -32,30 +32,30 @@ let htmlCategory = {
 let cssCategory = {
     pointOption100: {
                     pointValue: 100, 
-                    question: "what does the 'C' in CSS stand for?",
+                    question: "What does the 'C' in CSS stand for?",
                     answer: "cascading"
     }, 
     pointOption200: {
                     pointValue: 200, 
-                    question: "how would you make a font color 'pink' (as a string)?",
+                    question: "How would you make a font color 'pink' (as a string)?",
                     answer: "color: pink;"
     }, 
     pointOption300:
                     {
                     pointValue: 300,
-                    question: "how would you denote the css selector for the class 'movies'?",
+                    question: "How would you denote the css selector for the class 'movies'?",
                     answer: ".movies"
     }, 
     pointOption400:
                     {
                     pointValue: 400,
-                    question: "how would you denote the css selector for the id 'ferrari'?",
+                    question: "How would you denote the css selector for the id 'ferrari'?",
                     answer: "#ferrari"
     }, 
     pointOption500:
                     {
                     pointValue: 500,
-                    question: "what tag would you write to link the css stylesheet styles.css to your HTML?",
+                    question: "What tag would you write to link the css stylesheet styles.css to your HTML?",
                     answer: "<link rel='stylesheet' href='styles.css'>"
     }
 
@@ -65,31 +65,31 @@ let javascriptCategory = {
     pointOption100:            
                     {
                     pointValue: 100, 
-                    question: "what is another term for 'plain' javascript?",
+                    question: "What is another term for 'plain' javascript?",
                     answer: "vanilla"
     }, 
     pointOption200:
                     {
                     pointValue: 200,
-                    question: "how would you write the code to link the javascript file called 'script.js' to your html file?",
+                    question: "How would you write the code to link the javascript file called 'script.js' to your html file?",
                     answer: "<script src='script.js'></script>"
     }, 
     pointOption300:
                     {
                     pointValue: 300,
-                    question: "what is the first word you use to access an element in the DOM?",
+                    question: "What is the first word you use to access an element in the DOM?",
                     answer: "document"
     }, 
     pointOption400:
                     {
                     pointValue: 400,
-                    question: "what does API stand for?",
+                    question: "What does API stand for?",
                     answer: "application program interface"
     }, 
     pointOption500:
                     {
                     pointValue: 500,
-                    question: "what do you call a function inside of an object?",
+                    question: "What do you call a function inside of an object?",
                     answer: "method"
     }
 
@@ -99,32 +99,32 @@ let animalsCategory = {
     pointOption100: 
                     {
                     pointValue: 100,
-                    question: "what continent do kangaroos live on?",
+                    question: "What continent do kangaroos live on?",
                     answer: "australia"
     }, 
     pointOption200:
                     {
                     pointValue: 200,
-                    question: "how many legs does a crab have?",
+                    question: "How many legs does a crab have?",
                     answer: "10"
     }, 
     pointOption300:
                     {
                     pointValue: 300,
-                    question: "what do you call a large group of lions?",
+                    question: "What do you call a large group of lions?",
                     answer: "pride"
     }, 
     pointOption400:
                     {
                     pointValue: 400,
-                    question: "what do you call sheep's hair?",
+                    question: "What do you call sheep's hair?",
                     answer: "wool"
     }, 
     pointOption500:
                     {
                     pointValue: 500,
-                    question: "what is the only animal that can't jump?",
-                    answer: "elephant"
+                    question: "What do you call a female dolphin?",
+                    answer: "cow"
     }
 
 }
