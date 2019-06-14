@@ -20,11 +20,13 @@ h2 {
     text-shadow: 0 0 5px yellow;
 }
 .resetButton {
-    margin: 0 0 0 30px;
+    margin: 10px auto;
     border: 2px solid white;
     padding: 8px;
     background-color:palevioletred;
     color: white;
+    display: flex;
+    justify-content: center; 
 }
 
 /* .jeopardy_board {
@@ -81,7 +83,7 @@ h2 {
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
     list-style: none;
-    margin: 0 auto;
+    margin: 20px auto;
     width: 80vw;
 }
 .pointSquares li {
@@ -97,98 +99,98 @@ h2 {
 }
 #HTML100 {
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 1;
 }
 /* #HTML100:hover {
     color: yellow;
 } */
 #HTML200 {
     grid-column: 1;
-    grid-row: 3;
+    grid-row: 2;
 }
 /* #HTML200:hover {
     color: yellow;
 } */
 #HTML300 {
     grid-column: 1;
-    grid-row: 4;
+    grid-row: 3;
 }
 /* #HTML300:hover {
     color: yellow;
 } */
 #HTML400 {
     grid-column: 1;
-    grid-row: 5;
+    grid-row: 4;
 }
 /* #HTML400:hover {
     color: yellow;
 } */
 #HTML500 {
     grid-column: 1;
-    grid-row: 6;
+    grid-row: 5;
 }
 /* #HTML500:hover {
     color: yellow;
 } */
 #CSS100 {
     grid-column: 2;
-    grid-row: 2;
+    grid-row: 1;
 }
 #CSS200 {
     grid-column: 2;
-    grid-row: 3;
+    grid-row: 2;
 }
 #CSS300 {
     grid-column: 2;
-    grid-row: 4;
+    grid-row: 3;
 }
 #CSS400 {
     grid-column: 2;
-    grid-row: 5;
+    grid-row: 4;
 }
 #CSS500 {
     grid-column: 2;
-    grid-row: 6;
+    grid-row: 5;
 }
 #JavaScript100 {
     grid-column: 3;
-    grid-row: 2;
+    grid-row: 1;
 }
 #JavaScript200 {
     grid-column: 3;
-    grid-row: 3;
+    grid-row: 2;
 }
 #JavaScript300 {
     grid-column: 3;
-    grid-row: 4;
+    grid-row: 3;
 }
 #JavaScript400 {
     grid-column: 3;
-    grid-row: 5;
+    grid-row: 4;
 }
 #JavaScript500 {
     grid-column: 3;
-    grid-row: 6;
+    grid-row: 5;
 }
 #Animals100 {
     grid-column: 4;
-    grid-row: 2;
+    grid-row: 1;
 }
 #Animals200 {
     grid-column: 4;
-    grid-row: 3;
+    grid-row: 2;
 }
 #Animals300 {
     grid-column: 4;
-    grid-row: 4;
+    grid-row: 3;
 }
 #Animals400 {
     grid-column: 4;
-    grid-row: 5;
+    grid-row: 4;
 }
 #Animals500 {
     grid-column: 4;
-    grid-row: 6;
+    grid-row: 5;
 }
 
 form {
