@@ -50,7 +50,7 @@ let cssCategory = {
                     {
                     pointValue: 400,
                     question: "how would you denote the css selector for the id 'ferrari'?",
-                    answer: "<#ferrari>"
+                    answer: "#ferrari"
     }, 
     pointOption500:
                     {
@@ -128,6 +128,8 @@ let animalsCategory = {
     }
 
 }
+
+let catergoryArray= [htmlCategory, cssCategory, javascriptCategory, animalsCategory];
 // set variable for the 100 point square in the html category
 let htmlFor100 = document.querySelector('#HTML100')
 // create event that changes the text content from points to the question when clicked
@@ -293,6 +295,14 @@ function flipToQuestion20() {
     animalsFor500.textContent = animalsCategory.pointOption500.question;
     console.log(animalsFor500.textContent);
 };
+
+// let pointSquaresArray = [htmlFor100, htmlFor200, htmlFor300, htmlFor400, htmlFor500, cssFor100, cssFor200, cssFor300, cssFor400, cssFor500, javascriptFor100, javascriptFor200, javascriptFor300, javascriptFor400, javascriptFor500, animalsFor100, animalsFor200, animalsFor300, animalsFor400, animalsFor500];
+// pointSquaresArray.forEach(element => {
+//     pointSquaresArray[i].addEventListener('click', flipToQuestion)
+//     function flipToQuestion() {
+//         pointSquaresArray[i].textContent = catergoryArray[i++].
+//     }
+// });
 // let pointSquares = document.querySelectorAll('.pointSquares');
 // for (let i = 0; i < pointSquares.length; i++) {
 //     pointSquares[i].addEventListener('click', flipToQuestion)
@@ -312,10 +322,12 @@ let scoreBoard = document.querySelector('.score');
 let score = 0
 // make click event for submit button to check for right answer-
 // if answer is correct, alert them and add points to the user's score and scoreboard
+// after quaetion is answered, make the input value blank by changing the value to empty string
+// after question is answered, make the square blank by changing textContent to empty string
 submitAnswerButton.addEventListener('click', submitAnswer)
 function submitAnswer (event) {
     event.preventDefault();
-    if (score >= 100 ) {
+    if (score >= 2000 ) {
         alert ('You won jeopardy!');
     };
     if (answerToQuestion.value.toLowerCase() === htmlCategory.pointOption100.answer) {
@@ -478,6 +490,7 @@ function submitAnswer (event) {
         animalsFor500.textContent = ""
         return(score)
     };
+    // if conditions are not met, alert that the answer is incorrect
     {
         alert ('Sorry, that is incorrect!');
         answerToQuestion.value = ""
