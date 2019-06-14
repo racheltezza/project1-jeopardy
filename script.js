@@ -322,21 +322,21 @@ let scoreBoard = document.querySelector('.score');
 let score = 0
 // make click event for submit button to check for right answer-
 // if answer is correct, alert them and add points to the user's score and scoreboard
-// after quaetion is answered, make the input value blank by changing the value to empty string
+// after question is answered, make the input value blank by changing the value to empty string
 // after question is answered, make the square blank by changing textContent to empty string
 submitAnswerButton.addEventListener('click', submitAnswer)
 function submitAnswer (event) {
     event.preventDefault();
     if (answerToQuestion.value.toLowerCase() === htmlCategory.pointOption100.answer) {
-    alert('Congrats, you got it right!')
-    score = score + htmlCategory.pointOption100.pointValue;
-    scoreBoard.innerText = "$" + score;
-    answerToQuestion.value = ""
-    htmlFor100.textContent = ""
-    if (score >= 200 ) {
-        alert ('You won jeopardy!');
-    };
-    return(score)
+        alert('Congrats, you got it right!')
+        score = score + htmlCategory.pointOption100.pointValue;
+        scoreBoard.innerText = "$" + score;
+        answerToQuestion.value = ""
+        htmlFor100.textContent = ""
+        if (score >= 200 ) {
+            alert ('You won jeopardy!');
+        };
+        return(score)
     };
     if (answerToQuestion.value.toLowerCase() === htmlCategory.pointOption200.answer) {
         alert('Congrats, you got it right!')

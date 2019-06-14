@@ -32,24 +32,6 @@ h2 {
 .resetButton:hover {
     cursor: pointer;
 }
-
-/* .jeopardy_board {
-    display: grid;
-    grid-template-columns: repeat( 4, minmax(250px, 1fr) );
-    grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
-    list-style: none;
-    margin: 0 auto;
-    width: 80vw;
-    
-} */
-/* .jeopardy_board li {
-    border: 2px solid black;
-    text-align: center;
-    font-size: 25px;
-    background-color: blue;
-    color: white;
-} */
 .categories {
     display: grid;
     grid-template-columns: repeat( 4, minmax(100px, 1fr) );
@@ -105,37 +87,22 @@ h2 {
     grid-column: 1;
     grid-row: 1;
 }
-/* #HTML100:hover {
-    color: yellow;
-} */
 #HTML200 {
     grid-column: 1;
     grid-row: 2;
 }
-/* #HTML200:hover {
-    color: yellow;
-} */
 #HTML300 {
     grid-column: 1;
     grid-row: 3;
 }
-/* #HTML300:hover {
-    color: yellow;
-} */
 #HTML400 {
     grid-column: 1;
     grid-row: 4;
 }
-/* #HTML400:hover {
-    color: yellow;
-} */
 #HTML500 {
     grid-column: 1;
     grid-row: 5;
 }
-/* #HTML500:hover {
-    color: yellow;
-} */
 #CSS100 {
     grid-column: 2;
     grid-row: 1;
