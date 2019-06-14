@@ -19,6 +19,13 @@ h2 {
     text-align: center;
     text-shadow: 0 0 5px yellow;
 }
+.resetButton {
+    margin: 0 0 0 30px;
+    border: 2px solid white;
+    padding: 8px;
+    background-color:palevioletred;
+    color: white;
+}
 
 /* .jeopardy_board {
     display: grid;
