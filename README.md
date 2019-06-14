@@ -7,13 +7,13 @@
 [Trello](https://trello.com/b/v0zdkZFO/sei22-project-1 "My Trello board")
 
 
-# H1 WIREFRAMES
+# WIREFRAMES
 
 ![jeopardy wireframes](jeopardy_wireframes1.jpg "jeopardy board")
 ![jeopardy wireframes](jeopardy_wireframes2.jpg "answer submission alerts")
 
-#INSTRUCTIONS:
+# INSTRUCTIONS:
 Choose a question to answer by clicking on one of the dollar values in a category. Type answer into input box and click submit button to check if answer is right. Objective of the game is to win jeopardy by earning $2000.
 
-#LANGUAGES: 
+# LANGUAGES: 
 HTML, CSS, JavaScript
