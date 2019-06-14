@@ -327,16 +327,18 @@ let score = 0
 submitAnswerButton.addEventListener('click', submitAnswer)
 function submitAnswer (event) {
     event.preventDefault();
-    if (score >= 200 ) {
-        alert ('You won jeopardy!');
-        return(score);
-    };
+    // if (score >= 200 ) {
+    //     alert ('You won jeopardy!');
+    // };
     if (answerToQuestion.value.toLowerCase() === htmlCategory.pointOption100.answer) {
     alert('Congrats, you got it right!')
     score = score + htmlCategory.pointOption100.pointValue;
     scoreBoard.innerText = "$" + score;
     answerToQuestion.value = ""
     htmlFor100.textContent = ""
+    if (score >= 200 ) {
+        alert ('You won jeopardy!');
+    };
     return(score)
     };
     if (answerToQuestion.value.toLowerCase() === htmlCategory.pointOption200.answer) {
@@ -345,6 +347,9 @@ function submitAnswer (event) {
         scoreBoard.innerText = "$" + score;
         answerToQuestion.value = ""
         htmlFor200.textContent = ""
+        if (score >= 200 ) {
+            alert ('You won jeopardy!');
+        };
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === htmlCategory.pointOption300.answer) {
@@ -353,6 +358,9 @@ function submitAnswer (event) {
         scoreBoard.innerText = "$" + score;
         answerToQuestion.value = ""
         htmlFor300.textContent = ""
+        if (score >= 200 ) {
+            alert ('You won jeopardy!');
+        };
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === htmlCategory.pointOption300.answer) {
@@ -361,6 +369,9 @@ function submitAnswer (event) {
         scoreBoard.innerText = "$" + score;
         answerToQuestion.value = ""
         htmlFor400.textContent = ""
+        if (score >= 200 ) {
+            alert ('You won jeopardy!');
+        };
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === htmlCategory.pointOption500.answer) {
@@ -369,6 +380,9 @@ function submitAnswer (event) {
         scoreBoard.innerText = "$" + score;
         answerToQuestion.value = ""
         htmlFor500.textContent = ""
+        if (score >= 200 ) {
+            alert ('You won jeopardy!');
+        };
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === cssCategory.pointOption100.answer) {
@@ -377,6 +391,9 @@ function submitAnswer (event) {
         scoreBoard.innerText = "$" + score;
         answerToQuestion.value = ""
         cssFor100.textContent = ""
+        if (score >= 200 ) {
+            alert ('You won jeopardy!');
+        };
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === cssCategory.pointOption200.answer) {
@@ -385,6 +402,9 @@ function submitAnswer (event) {
         scoreBoard.innerText = "$" + score;
         answerToQuestion.value = ""
         cssFor200.textContent = ""
+        if (score >= 200 ) {
+            alert ('You won jeopardy!');
+        };
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === cssCategory.pointOption300.answer) {
@@ -393,6 +413,9 @@ function submitAnswer (event) {
         scoreBoard.innerText = "$" + score;
         answerToQuestion.value = ""
         cssFor300.textContent = ""
+        if (score >= 200 ) {
+            alert ('You won jeopardy!');
+        };
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === cssCategory.pointOption400.answer) {
@@ -401,6 +424,9 @@ function submitAnswer (event) {
         scoreBoard.innerText = "$" + score;
         answerToQuestion.value = ""
         cssFor400.textContent = ""
+        if (score >= 200 ) {
+            alert ('You won jeopardy!');
+        };
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === cssCategory.pointOption500.answer) {
@@ -409,6 +435,9 @@ function submitAnswer (event) {
         scoreBoard.innerText = "$" + score;
         answerToQuestion.value = ""
         cssFor500.textContent = ""
+        if (score >= 200 ) {
+            alert ('You won jeopardy!');
+        };
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === javascriptCategory.pointOption100.answer) {
@@ -417,6 +446,9 @@ function submitAnswer (event) {
         scoreBoard.innerText = "$" + score;
         answerToQuestion.value = ""
         javascriptFor100.textContent = ""
+        if (score >= 200 ) {
+            alert ('You won jeopardy!');
+        };
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === javascriptCategory.pointOption200.answer) {
@@ -425,6 +457,9 @@ function submitAnswer (event) {
         scoreBoard.innerText = "$" + score;
         answerToQuestion.value = ""
         javascriptFor200.textContent = ""
+        if (score >= 200 ) {
+            alert ('You won jeopardy!');
+        };
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === javascriptCategory.pointOption300.answer) {
@@ -433,6 +468,9 @@ function submitAnswer (event) {
         scoreBoard.innerText = "$" + score;
         answerToQuestion.value = ""
         javascriptFor300.textContent = ""
+        if (score >= 200 ) {
+            alert ('You won jeopardy!');
+        };
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === javascriptCategory.pointOption400.answer) {
@@ -441,6 +479,9 @@ function submitAnswer (event) {
         scoreBoard.innerText = "$" + score;
         answerToQuestion.value = ""
         javascriptFor400.textContent = ""
+        if (score >= 200 ) {
+            alert ('You won jeopardy!');
+        };
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === javascriptCategory.pointOption500.answer) {
@@ -449,6 +490,9 @@ function submitAnswer (event) {
         scoreBoard.innerText = "$" + score;
         answerToQuestion.value = ""
         javascriptFor500.textContent = ""
+        if (score >= 200 ) {
+            alert ('You won jeopardy!');
+        };
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === animalsCategory.pointOption100.answer) {
@@ -457,6 +501,9 @@ function submitAnswer (event) {
         scoreBoard.innerText = "$" + score;
         answerToQuestion.value = ""
         animalsFor100.textContent = ""
+        if (score >= 200 ) {
+            alert ('You won jeopardy!');
+        };
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === animalsCategory.pointOption200.answer) {
@@ -465,6 +512,9 @@ function submitAnswer (event) {
         scoreBoard.innerText = "$" + score;
         answerToQuestion.value = ""
         animalsFor200.textContent = ""
+        if (score >= 200 ) {
+            alert ('You won jeopardy!');
+        };
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === animalsCategory.pointOption300.answer) {
@@ -473,6 +523,9 @@ function submitAnswer (event) {
         scoreBoard.innerText = "$" + score;
         answerToQuestion.value = ""
         animalsFor300.textContent = ""
+        if (score >= 200 ) {
+            alert ('You won jeopardy!');
+        };
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === animalsCategory.pointOption400.answer) {
@@ -481,6 +534,9 @@ function submitAnswer (event) {
         scoreBoard.innerText = "$" + score;
         answerToQuestion.value = ""
         animalsFor400.textContent = ""
+        if (score >= 200 ) {
+            alert ('You won jeopardy!');
+        };
         return(score)
     };
     if (answerToQuestion.value.toLowerCase() === animalsCategory.pointOption500.answer) {
@@ -489,6 +545,9 @@ function submitAnswer (event) {
         scoreBoard.innerText = "$" + score;
         answerToQuestion.value = ""
         animalsFor500.textContent = ""
+        if (score >= 200 ) {
+            alert ('You won jeopardy!');
+        };
         return(score)
     };
     // if conditions are not met, alert that the answer is incorrect
