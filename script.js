@@ -327,8 +327,9 @@ let score = 0
 submitAnswerButton.addEventListener('click', submitAnswer)
 function submitAnswer (event) {
     event.preventDefault();
-    if (score >= 2000 ) {
+    if (score >= 200 ) {
         alert ('You won jeopardy!');
+        return(score);
     };
     if (answerToQuestion.value.toLowerCase() === htmlCategory.pointOption100.answer) {
     alert('Congrats, you got it right!')
