@@ -483,3 +483,9 @@ function submitAnswer (event) {
         answerToQuestion.value = ""
     }
 }
+
+let resetButton = document.querySelector('.resetButton');
+resetButton.addEventListener('click', resetGame) 
+function resetGame() {
+    document.location.reload(true);
+}
