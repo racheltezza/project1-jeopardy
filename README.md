@@ -9,8 +9,8 @@
 
 # WIREFRAMES
 
-![jeopardy wireframes](jeopardy_wireframes1.jpg | width=200)
-![jeopardy wireframes](jeopardy_wireframes2.jpg | width=200)
+![jeopardy wireframes](jeopardy_wireframes1.jpg =200)
+![jeopardy wireframes](jeopardy_wireframes2.jpg =200)
 
 # INSTRUCTIONS:
 Choose a question to answer by clicking on one of the dollar values in a category. Type answer into input box and click submit button to check if answer is right. Objective of the game is to win jeopardy by earning $2000.
