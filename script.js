@@ -399,7 +399,7 @@ function submitAnswer (event) {
         scoreBoard.innerText = "$" + score;
         answerToQuestion.value = ""
         cssFor200.textContent = ""
-        if (score >= 200 ) {
+        if (score >= 2000 ) {
             alert ('You won jeopardy!');
         };
         return(score)
