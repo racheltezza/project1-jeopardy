@@ -2,7 +2,7 @@
 
 [GitHub](https://github.com/racheltezza/project1-jeopardy "My gitHub repo")
 
-[Project](rezzaproject1jeopardy.netlify.com "My deployed site")
+[Project](https://rezzaproject1jeopardy.netlify.com/ "My deployed site")
 
 [Trello](https://trello.com/b/v0zdkZFO/sei22-project-1 "My Trello board")
 
