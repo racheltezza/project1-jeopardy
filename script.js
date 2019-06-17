@@ -554,13 +554,15 @@ function submitAnswer (event) {
     // if conditions are not met, alert that the answer is incorrect
     {
         alert ('Sorry, that is incorrect!');
-        answerToQuestion.value = ""
+        answerToQuestion.value = "";
+        score = score - 100;
+        scoreBoard.innerText = "$" + score;
+        if (score <= -400) {
+            alert ('Sorry, you lose jeopardy')
+        }
+    
     }
-    // if (pointSquares.textContent="" && score <= 200) {
-    //     alert ('Sorry you lose');
-    // }
 }
-
 
 
 // for (let i=0; i < categoryArray.length; i++) {
